@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<flex-config>
+    <compiler>
+        <!--项目内代码路径-->
+        <source-path append="true">
+            <path-element>src</path-element>
+        </source-path>
+        <!--项目内引入SWC库路径-->
+        <library-path append="true">
+            <path-element>lib</path-element>
+        </library-path>
+        <!--编译剔除的SWC库-->
+        <external-library-path append="true">
+        </external-library-path>
+    </compiler>
+    <file-specs>
+        <path-element>src/Main.as</path-element>
+    </file-specs>
+    <output>bin/HelloWorld.swf</output>
+	
+	<!--输出宽高-->
+	<default-size>
+		<width>935</width>
+		<height>560</height>
+	</default-size>
+</flex-config>
